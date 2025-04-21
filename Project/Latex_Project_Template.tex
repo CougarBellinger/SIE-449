@@ -1,0 +1,118 @@
+%%%%%%%%%%%%%%%%%%%%%%% SIE 449/549 %%%%%%%%%%%%%%%%%%%%%%%%% Project template
+%%% Instructor: Afrooz Jalilzadeh
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[letterpaper,11 pt]{article}
+\usepackage{graphicx}
+\usepackage{amsfonts,amsmath,fullpage,bbm}
+\usepackage{amssymb,amsthm,multirow,verbatim}
+\usepackage{acronym,wrapfig,plain,mathrsfs,enumerate,relsize,color}
+\newtheorem{algorithm}{Algorithm}
+\usepackage{algorithm}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
+\newtheorem{notation}{Notation}
+\newtheorem{remark}{Remark}
+\newtheorem{proposition}{Proposition}
+\newtheorem{assumption}{Assumption}
+\newtheorem{definition}{Definition}
+\usepackage{subfig}
+\usepackage{algorithmic}
+\usepackage{pifont}
+\usepackage{footmisc}
+\newcommand{\cmark}{\text{\ding{51}}}
+\newcommand{\xmark}{\text{\ding{55}}}
+\newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}
+\newcommand{\blue}[1]{{\color{blue}#1}}
+\providecommand{\keywords}[1]{\textbf{\textit{keywords:}} #1}
+\allowdisplaybreaks
+\begin{document}
+\allowdisplaybreaks
+\title{Project Title}
+
+
+\author{Author\\{\small Department of XXXX,} {\small The University of Arizona,} \\ {\small id@arizona.edu}}
+
+\date{}
+
+
+\maketitle
+\begin{abstract}
+Your abstract should give readers a brief summary of your article. It should concisely describe the contents of your article, and include key terms. It should be informative, accessible and not only indicate the general scope of the article but also state the main results obtained and conclusions drawn. The abstract should be complete in itself; it should not contain undefined abbreviations and no table numbers, figure numbers, references or equations should be referred to. It should not normally be more than 300 words.
+
+\end{abstract}
+\keywords{XXX}
+\section{Introduction}
+\label{intro}
+Define the problem that you want to solve. 
+
+\subsection{Applications} 
+Why this problem is important and what are the applications. 
+
+\subsection{ Literature review}
+Review ate least 3 (for SIE 449) and 5 (SIE 549) references. 
+
+
+
+\section{Methodology/Algorithm description}\label{sec:method}
+Describe the algorithms and state their convergence results.
+ 
+
+%\begin{algorithm}[htbp]
+%\caption{Some method}
+%\label{alg1}
+%(0) {\bf input:} $x_0\in \mathbb R^n$  \\
+%(1) {\bf for} $k=1\hdots K$ {\bf do}\\
+%$ \vdots$
+%(2) {\bf end for}
+%\end{algorithm}
+
+
+%In Algorithm \ref{alg1}
+%
+%We impose the following requirements on  ...
+%\begin{assumption}\label{assum} 
+%For all...
+%\end{assumption}
+
+%\begin{lemma}\label{lemma}
+%Suppose Assumption \ref{assum} holds, ... 
+%\end{lemma}
+
+%\begin{theorem}\label{thm}
+%\cite{nocedal2006numerical} Suppose Assumption \ref{assum} holds. 
+%\end{theorem}
+
+\section{Numerical Experiments (Optinoal for SIE 449)}\label{sec:num}
+Conduct some numerical experiments to showcase the performance of the method(s) to solve the considered problem. Use Figures and Tables to show the performance of the methods. 
+
+% Use the following command lines to include a figure
+%--------------------------------------------------------------
+%\begin{figure}[htb]
+%\centering
+%\includegraphics[scale=0.13]{name of your figure}
+%\caption{Comparing...}
+%\label{fig1}
+%\end{figure}
+%--------------------------------------------------------------
+
+%\begin{table}[ht]
+%	\centering
+%\begin{tabular}{|c|c|c||c|c|c|} \hline 
+%&\multicolumn{2}{|c||}{\bf method 1}&\multicolumn{3}{|c|}{\bf method 2}\\ \hline \hline
+%parameter 1 & $\|x_k-x^*\|$ &time& parameter 2 &$\|x_k-x^*\|$&time\\ \hline
+%\hline
+% 	\end{tabular}
+%	\caption{Example 1: Comparing {\bf method 1} vs {\bf method 2}}
+%\label{sc_tab_ex2}
+%\vspace{-0.2in}
+%\end{table}
+
+\section{Conclusion and Future Direction}
+Summarize the results and state the gap(s) and possible future directions.
+
+
+% BibTeX users please use one of
+\bibliographystyle{siam}    
+\bibliography{biblio} 
+\end{document}
